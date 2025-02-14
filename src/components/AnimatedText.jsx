@@ -29,8 +29,8 @@ function AnimatedText() {
 
   return (
 
-<div className=' font-bold text-3xl  lg:text-5xl lg:w-3/5 text-center lg:leading-[80px]'>
-<p>Learn the fundamentals with our Experts in 
+<div className=' font-bold text-3xl lg:text-5xl lg:w-3/5 text-center lg:leading-[80px]'>
+<p className="pt-10">Learn the fundamentals with our Experts in 
     <motion.span className='text-[#00CBFE]' initial={{ opacity: 0 }} animate={controls}>
        { texts[currentIndex]}
     </motion.span>
