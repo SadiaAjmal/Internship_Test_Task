@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className=" hidden px-32 py-4 lg:flex items-center justify-between w-full text-white absolute">
       <div>
-        <ul className="flex justify-center items-center space-x-5">
+        <ul className="text-sm flex justify-center items-center space-x-5">
           <div className=" flex items-center justify-center space-x-2 cursor-pointer">
             <HiPhone />
             <li>+923455555396</li>

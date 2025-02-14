@@ -11,8 +11,8 @@ const Hero = () => {
 
   return (
     <div
-      className=" text-white z-0 px-3 hero lg:h-screen h-96 flex flex-col space-y-7 lg:space-y-10 justify-center items-center overflow-y-auto top-0  bg-no-repeat bg-center 
-      bg-gradient-to-b from-[rgba(0,50,150,0.8)] to-[rgba(0,30,100,0.8)] "
+      className=" text-white z-0 px-3 hero lg:h-screen h-96 flex flex-col space-y-7 lg:space-y-8 justify-center items-center overflow-y-auto top-0  bg-no-repeat bg-center bg-cover 
+    "
       style={{
         backgroundImage:
           `linear-gradient(rgba(0, 50, 100, 0.8), rgba(0, 30, 100, 0.8)), url(${heroBg})`,
